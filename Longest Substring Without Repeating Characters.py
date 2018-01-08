@@ -24,7 +24,7 @@ class Solution:
 				start = usedChar[s[i]] + 1
 			else:
 				maxLength = max(maxLength, i - start + 1)
-
+			#每读一个位置maintain该字母最大位置
 			usedChar[s[i]] = i
 
 		return maxLength
