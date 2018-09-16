@@ -2,6 +2,7 @@ class Solution(object):
     def threeSumClosest(self, nums, target):
         """
         简单来说就是,fix 一个 ,另外两个用两点法找剩余value最近的,应该还是n2的算法
+        三点, 第一个,第二个和最后一个,后面两个导致了你必须先sort ,这样两边向中间移动才会节省步奏
         :type nums: List[int]
         :type target: int
         :rtype: int
