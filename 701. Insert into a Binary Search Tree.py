@@ -12,6 +12,27 @@ class Solution:
 		:type val: int
 		:rtype: TreeNode
 		"""
+		"""
+		        :type root: TreeNode
+		        :type val: int
+		        :rtype: TreeNode
+		        """
+		# if not root:
+		# 	return TreeNode(val)
+		# pre, cur, is_left = None, root, None
+		# while cur:
+		# 	pre = cur
+		# 	if val < cur.val:
+		# 		is_left = True
+		# 		cur = cur.left
+		# 	elif val > cur.val:
+		# 		is_left = False
+		# 		cur = cur.right
+		# if is_left:
+		# 	pre.left = TreeNode(val)
+		# else:
+		# 	pre.right = TreeNode(val)
+		# return root
 		if root == None:
 			endnode = TreeNode(val)
 			return endnode
